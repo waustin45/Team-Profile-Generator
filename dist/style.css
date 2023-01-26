@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.card {
+    width: 20rem;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgb(243, 243, 243);
+    border-radius: .25rem;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.header {
+    background-color: rgb(56, 129, 238);
+    text-align: left;
+    width: 100%;
+    color: white;
+    text-transform: capitalize;
+}
+.name, .title-h2 {
+    padding: 0;
+    margin: 0 0 .75rem 1rem;
+}
+.name {
+    margin-top: 1rem;
+    margin-bottom: .25rem;
+    font-size: 2.2em;
+}
+.info-sec {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.id, .email, .office, .github, .school {
+    background-color: white;
+    width: 75%;
+    border: 1px solid lightgray;
+    padding: .5rem;
+}
+.school {
+    text-transform: capitalize;
+}
+h1, h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav {
+    width: 100%;
+    height: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(245, 82, 82);
+    color: white;
+    font-size: 3rem;
+    margin-bottom: 5rem;
+}

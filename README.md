@@ -18,5 +18,5 @@ Creates an easy and reusable way to manage teams and each employee's information
 ## Links 
 -Github: https://github.com/waustin45 <br/>
 -Repo: https://github.com/waustin45/Team-Profile-Generator.git <br/>
--Video Link: 
+-Video Link: https://drive.google.com/file/d/1RR-2cZePISHfM9NWFiKNoR6jvhSZ5ZhN/view
  
